@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Upper Nav Bar -->
+    <div class="upper-nav">
+        <div class="container">
+            <div class="contact-info">
+                <span>Call for Enquiry:</span>
+                <span><i class="fa-solid fa-phone"></i> +91 7566256675</span>
+                <span><i class="fa-regular fa-envelope"></i>&nbsp;frenco@assist4you.co.in</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Nav Bar -->
+    <div class="second-nav" id="second-nav" data-aos="fade-up">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/Assist4ulogo.PNG" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="padding nav-link">ABOUT US</a>    
+                    <div class="dropdown-content">
+                        <a href="ourcompany.html">Our Company</a>
+                        <a href="ourteam.html">Our Team</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="padding nav-link">SERVICES</a>
+                    <div class="dropdown-content" style="margin-left: 185px;">
+                        <a href="Fullcyclerecruit.html">Full Cycle Recruitment</a>
+                        <a href="Candidate Sourcing.html">Candidate Sourcing</a>
+                        <a href="Businessdevlop.html">Business Development</a>
+                        <a href="Skillmarketing.html">Skill Marketing</a>
+                        <a href="Adminsupport.html">Admin Support</a>
+                    </div>
+                </li>
+                <li><a href="Contactus.html" class="nav-link">CONTACT US</a></li>
+            </ul>
+                    <!-- Side Nav Bar -->
+            <div id="sideNav" class="side-nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="#" onclick="toggleDropdown('aboutDropdown')">ABOUT US &#9662;</a>
+                <div id="aboutDropdown" class="dropdown-container">
+                    <a href="ourcompany.html">Our Company</a>
+                    <a href="ourteam.html">Our Team</a>
+                </div>
+                <a href="#" onclick="toggleDropdown('servicesDropdown')">SERVICES &#9662;</a>
+                <div id="servicesDropdown" class="dropdown-container">
+                    <a href="Fullcyclerecruit.html">Full Cycle Recruitment</a>
+                    <a href="Candidate Sourcing.html">Candidate Sourcing</a>
+                    <a href="Businessdevlop.html">Business Development</a>
+                    <a href="Skillmarketing.html">Skill Marketing</a>
+                    <a href="Adminsupport.html">Admin Support</a>
+                </div>
+                <a href="Contactus.html">CONTACT US</a>
+            </div>
+
+            <!-- Hamburger/Close Icon -->
+            <div class="openbtn" onclick="toggleNav()">
+                <span id="menu-icon">&#9776;</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="company-heading">
+            <h1>Stay updated. Let’s stay in touch!</h1>
+        </div>
+        <section class="section-custom-i">
+            <div class="container-custom-i">
+                <div class="contactInfo-custom-i"> 
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info-custom-i">
+                            <li>
+                                <span><img src="assets/location.png"></span>
+                                <span>Sukhliya, Indore, Madhya Pradesh <br>
+                                    452010</span>
+                            </li>
+                            <li>
+                                <span><img src="assets/location.png"></span>
+                                <span>Texas City Rd, Texas City,<br>
+                                    Texas 62930, US<br>
+                                    11472</span>
+                            </li>
+                            <li>
+                                <span><img src="assets/mail.png"></span>
+                                <span><a href="mailto: frenco@assist4you.co.in">frenco@assist4you.co.in</a></span>
+                            </li>
+                            <li>
+                                <span><img src="assets/call.png"></span>
+                                <span>+91 7566256675</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="sci-custom-i">
+                        <li><a href="#"><i class="fa-brands fa-youtube" style="color: white; font-size: 30px;"></i></a></li>
+                        <li><a href="#"><img src="assets/insta.png"></a></li>
+                        <li><a href="#"><img src="assets/twitter.png"></a></li>
+                        <li><a href="https://www.linkedin.com/company/103272137/admin/dashboard/"><img src="assets/linkedd.png"></a></li>
+                    </ul>
+                </div>
+                <form id="contactForm" action="/submit" method="post"> 
+                    <div class="contactForm-custom-i" data-aos="fade-down">
+                        <h2>Send a Message</h2>
+                        <div class="formBox-custom-i">
+                            <div class="inputBox-custom-i w50">
+                                <input type="text" name="firstname" required id="firstname">
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox-custom-i w50">
+                                <input type="text" name="lastname" required id="lastname">
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox-custom-i w50">
+                                <input type="email" name="email" required id="email">
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBox-custom-i w50">
+                                <input type="text" name="mobile" required id="mobile">
+                                <span>Mobile Number</span>
+                            </div>
+                            <div class="inputBox-custom-i w100">
+                                <textarea id="message" name="message" required></textarea>
+                                <span>Write your message here...</span>
+                            </div>
+                            <div class="inputBox-custom-i w100">
+                                <!-- <input type="submit" value="Submit"> -->
+                                <div class="container-decent">
+                                    <button type="submit" class="submit-btn" value="Submit">Submit</button>
+                                    <div class="popup" id="popup">
+                                      <img src="assets/404-tick.png" loading="lazy" alt="404-tick" />
+                                      <h2>Thank You!</h2>
+                                      <p>Thank you for submitting details&nbsp;<i class="fa-regular fa-thumbs-up"></i>, Our representative<i class="fa-solid fa-user-headset"></i> will contact to you soon.</p>
+                                      <!-- //Your details has been successfully submitted. -->
+                                      <button onclick="closePopup()" type="button">OK</button>
+                                    </div>  
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>                  
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="footer" data-aos="fade-up">
+        <div class="footer-container">
+        <div class="footer-section logo-section">
+            <img src="assets/IMG_9323o.JPG" alt="Assist4You Logo" class="footer-logo">
+            <h2>Your Virtual Assistant</h2>
+            <p class="footer-description">Founded in 2023, Assist4 You has emerged as a cornerstone of  digital Staffing & Recruitment agency. our mission is to empower businesses across various sectors by fostering revenue growth, operational efficiency, and superior customer experiences.</p>
+        </div>
+        <div class="footer-section contact-section">
+            <h2>Get in Touch</h2>
+            <p><i class="fas fa-envelope"></i> frenco@assist4you.co.in</p>
+            <p><i class="fas fa-phone"></i> +91 7566256675</p>
+            <p><i class="fa-solid fa-location-dot"></i>Corporate Office :- 11, opp. Madan Mahal Garden, near Petrol Pump, Mangal Nagar, Sukhliya, Indore, Madhya Pradesh 452010</p>
+            <p><i class="fa-solid fa-location-dot"></i>Texas City Rd, Texas City,Texas 62930, US, 11472</p>
+        </div>
+        <div class="footer-section social-section">
+            <h2>Connect with Us</h2>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/company/103272137/admin/dashboard/" target="_blank">LinkedIn</a></p>
+            <p><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCkpVk3lWwNYQij2M3CREOqA" target="_blank">Youtube</a></p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <p>&copy; 2024 Assist4You. All Rights Reserved.</p>
+        <p>Designed by Shivansh Sahu</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/941fd95e7f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+        document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contactForm');
+        const popup = document.getElementById('popup');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Custom form validation
+            if (!validateForm()) {
+                alert('Please fill out all fields correctly.');
+                return;
+            }
+
+            const formData = new FormData(form);
+
+            fetch('/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(Object.fromEntries(formData)),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    form.reset(); // Clear the form fields
+                    popup.classList.add('open-popup');
+                } else {
+                    alert('Failed to submit the form. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to submit the form. Please try again.');
+            });
+        });
+
+        function validateForm() {
+            let isValid = true;
+
+            const firstname = document.getElementById('firstname');
+            const lastname = document.getElementById('lastname');
+            const email = document.getElementById('email');
+            const mobile = document.getElementById('mobile');
+            const message = document.getElementById('message');
+
+            // Check if each field is filled
+            if (!firstname.value.trim()) {
+                isValid = false;
+                firstname.classList.add('error');
+            } else {
+                firstname.classList.remove('error');
+            }
+
+            if (!lastname.value.trim()) {
+                isValid = false;
+                lastname.classList.add('error');
+            } else {
+                lastname.classList.remove('error');
+            }
+
+            if (!email.value.trim() || !validateEmail(email.value)) {
+                isValid = false;
+                email.classList.add('error');
+            } else {
+                email.classList.remove('error');
+            }
+
+            if (!mobile.value.trim() || !validateMobile(mobile.value)) {
+                isValid = false;
+                mobile.classList.add('error');
+            } else {
+                mobile.classList.remove('error');
+            }
+
+            if (!message.value.trim()) {
+                isValid = false;
+                message.classList.add('error');
+            } else {
+                message.classList.remove('error');
+            }
+
+            return isValid;
+        }
+
+        function validateEmail(email) {
+            // Basic email regex pattern
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        function validateMobile(mobile) {
+            // Basic mobile number validation (10 digits)
+            const re = /^\d{10}$/;
+            return re.test(String(mobile));
+        }
+    });
+
+    function closePopup() {
+        document.getElementById('popup').classList.remove('open-popup');
+    }
+</script> 
+
+</body>
+</html>
